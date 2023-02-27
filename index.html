@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+    <nav class="navbar navbar-expand-md navbar-light pt-3 pb-4">
       <div class="container-lg">
         <a class="navbar-brand" href="#intro">
           <span class="text-secondary fw-bold"><i class="bi bi-book-half"></i> Sary's Book</span>
@@ -317,7 +317,60 @@
     </section>
 
     <!-- contact form -->
-    <section></section>
+    <!-- form-control, form-label, form-input, input-form & input-group-form -->
+    <section id="#contact">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>Get In Touch</h2>
+          <p class="lead text-muted">Questions to ask? Fill out the form to contact me directly</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <form action="#">
+              <label for="email" class="form-label">Email address:</label>
+              <div class="input-group mb-4">
+                <span class="input-group-text">
+                  <i class="bi bi-envelope-fill"></i>
+                </span>
+                <input type="email" id="email" required class="form-control" placeholder="E.g mario@example.com">
+              </div>
+              
+
+              <label for="name" class="form-label">Name:</label>
+              <div class="input-group mb-4">
+                <span class="input-group-text">
+                  <i class="bi bi-person-fill"></i>
+                </span>
+                <input type="text" id="name" required class="form-control" placeholder="Mario">
+              </div>
+              
+              <label for="subject" class="form-label">What is your question about?</label>
+              <div class="input-group mb-4">
+                <span class="input-group-text">
+                  <i class="bi bi-chat-right-dots-fill"></i>
+                </span>
+                <select class="form-select"  id="subject">
+                <option value="pricing" selected>Pricing Query</option>
+                <option value="content">Content Query</option>
+                <option value="other">Other Query</option>
+              </select>
+              </div>
+              
+              <div class="form-floating mt-5 mb-4">
+                <textarea  id="query" style="height: 140px" class="form-control"></textarea>
+                <label for="query" >Your query....</label>
+              </div>
+              
+              <div class="text-center mb-3">
+                <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- get updates / modal trigger -->
     <section></section>
