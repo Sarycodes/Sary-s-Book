@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      href="/css/main.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>Sary's Book</title>
@@ -448,6 +446,18 @@
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa quibusdam odio eos consectetur esse eius, dignissimos 
           debitis obcaecati unde veritatis molestias nulla porro dolorem nisi distinctio, libero accusantium. Pariatur, numquam?
         </p>
+
+        <!-- dropdown -->
+        <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" id="book-dropdown" type="button" data-bs-toggle="dropdown">
+            Choose a book title
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+            <li><a class="dropdown-item" href="#">Become a React Superhero</a></li>
+            <li><a class="dropdown-item" href="#">Conquering Vue.js</a></li>
+            <li><a class="dropdown-item" href="#">Levelling up Your Next.js</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
